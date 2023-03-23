@@ -1,0 +1,45 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    font-family: sans-serif;
+    text-align: center;
+}
+.main{
+    display: inline-block;
+    height: 100%;
+    /* width: 100%; */
+    justify-content: center;
+    /* align-items: center; */
+
+
+}
+h1{
+    background-color: yellow;
+    color: black;
+}
+table{
+    background-color: black;
+    color: white;
+    padding: 0 15px 15px 15px;
+    
+}
+td{
+    height: 40px;
+    width: 45px;
+    padding: 4px;
+}
+tr{
+    font-size: x-large;
+    font-weight: bolder;
+    font-family: monospace;
+
+}
+.fl::first-line{
+    font-size: x-large;
+}
+td::first-line{
+    font-size: 10px;
+    font-weight: bolder;
+}
